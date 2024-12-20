@@ -1,0 +1,51 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.1.2
+  awesome_snackbar_content: ^0.1.4
+  url_launcher: ^6.3.1
+  font_awesome_flutter: ^10.8.0
+  flutter_screenutil: ^5.9.3
+  file_picker: ^8.1.4
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  dio: ^5.7.0
+  equatable: ^2.0.7
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  flutter_local_notifications: ^18.0.1
+  web_socket_channel: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/images/toyota.png
+  - assets/images/fat.jpg
+  - assets/images/fat2.jpg
+  - assets/images/nonton.jpg
+  - assets/images/jalan.jpg
+  - assets/images/kuliner.jpg
+  - assets/raw/kucing.mp3
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
